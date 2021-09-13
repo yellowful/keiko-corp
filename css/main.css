@@ -793,10 +793,15 @@ footer .copyright a{
 		display: block;
 		width: 100%;
 	}
+	.hero{
+		background: url('../img/hero360.jpg') no-repeat fixed center center;
+	}
 }
 
 @media (max-width: 767px) {
-
+	.hero{
+		background: url('../img/hero767.jpg') no-repeat fixed center center;
+	}
 
 	/*		Header 		*/
 	header .logo{
